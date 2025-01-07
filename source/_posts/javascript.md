@@ -20,8 +20,8 @@ plugins:
 
 JavaScript is a lightweight, interpreted programming language.
 
-- [JSON cheatsheet](/json) _(cheatsheets.zip)_
-- [Regex in JavaScript](/regex#regex-in-javascript) _(cheatsheets.zip)_
+- [JSON cheatsheet](/json) _(code-reference.dev)_
+- [Regex in JavaScript](/regex#regex-in-javascript) _(code-reference.dev)_
 
 ### Console
 

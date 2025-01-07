@@ -95,7 +95,7 @@ The same as `JSON` below 👇
 
 ```ini
 [section]
-domain = cheatsheets.zip
+domain = code-reference.dev
 [section.subsection]
 foo = bar
 ```
@@ -105,7 +105,7 @@ The same as `JSON` below 👇
 ```json
 {
   "section": {
-    "domain": "cheatsheets.zip"
+    "domain": "code-reference.dev"
     "subsection": {
       "foo": "bar"
     }
@@ -117,7 +117,7 @@ Nest to previous section (shorthand)
 
 ```ini
 [section]
-domain = cheatsheets.zip
+domain = code-reference.dev
 [.subsection]
 foo = bar
 ```
@@ -145,7 +145,7 @@ foo = bar
 
 ```ini
 [section]
-domain = cheatsheets.zip
+domain = code-reference.dev
 array[]=first value
 array[]=second value
 ```
@@ -155,7 +155,7 @@ The same as `JSON` below 👇
 ```json
 {
   "section": {
-    "domain": "cheatsheets.zip",
+    "domain": "code-reference.dev",
     "array": ["first value", "second value"]
   }
 }

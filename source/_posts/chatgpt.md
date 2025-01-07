@@ -146,7 +146,7 @@ plugins:
 - **Extract email address from text**
   ```{.wrap}
   Extract all email addresses for me:
-  Sed sit amet sodales tom@gmail.com, at jack@cheatsheets.zip enim. 18261@outlook.com ut eros
+  Sed sit amet sodales tom@gmail.com, at jack@code-reference.dev enim. 18261@outlook.com ut eros
   ```
 
 {.collapsible}

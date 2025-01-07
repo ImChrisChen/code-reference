@@ -42,9 +42,9 @@ It's a good practice to refer to the source code of the
 ├── source
 │   ├── _posts   # Cheatsheet source files
 │   │   ├── awk.md
-│   │   ├── vim.md # => cheatsheets.zip/vim
+│   │   ├── vim.md # => code-reference.dev/vim
 │   │   ├── php.md
-│   │   ├── css.md # => cheatsheets.zip/css
+│   │   ├── css.md # => code-reference.dev/css
 │   │   ├── ...
 │   └── widget   # Widget files
 │       └── chmod.html
@@ -692,7 +692,7 @@ List markers
 ### Basic code
 
 ```js
-cheatsheets.zip.is(() => {
+code-reference.dev.is(() => {
   awesome.site();
 });
 ```
@@ -705,7 +705,7 @@ here.is.some.more();
 
 `````markdown
 ````js
-cheatsheets.zip.is(() => {
+code-reference.dev.is(() => {
   awesome.site()
 })
 \```
@@ -723,7 +723,7 @@ Code blocks can be placed one after the other.
 #### index.js
 
 ```js
-cheatsheets.zip.is(() => {
+code-reference.dev.is(() => {
   awesome.site();
 });
 ```
@@ -740,7 +740,7 @@ here.is.some.more();
 #### index.js
 
 ```js
-cheatsheets.zip.is(() => {
+code-reference.dev.is(() => {
   awesome.site();
 });
 ```

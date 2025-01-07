@@ -9,7 +9,7 @@
                     <%- partial('_partial/post/recent') %>
                 </div>
             </div>
-            <div class="hidden md:block flex-shrink-0 mx-auto block mt-8 md:mx-8 max-w-xs">
+            <div class="hidden md:block flex-shrink-0 mx-auto block mt-8 md:mx-8 max-w-xs" style="display: none;">
                 <%- partial('index/logo', {icon: false}) %>
                 <h4 class="mt-5 text-sm text-slate-500"><%- config.description %>.</h4>
                 <div class="share mt-4">
@@ -27,7 +27,7 @@
     <% } %>
     <div class="max-container flex flex-col sm:flex-row items-center ">
         <p class="py-2 md:py-3 text-slate-500 text-sm text-center w-full">
-            © <%= new Date().getFullYear() %> cheatsheets.zip, All rights reserved.
+            © <%= new Date().getFullYear() %> code-reference.dev, All rights reserved.
         </p>
     </div>
 </footer>
