@@ -828,7 +828,7 @@ cheatsheets.is(() => {
 cheatsheets.is(() => {
   awesome.site();
 });
-```
+```[sub.yaml](..%2F..%2F..%2F..%2FDownloads%2Fsub.yaml)
 
 #### ↓ Source Code
 
