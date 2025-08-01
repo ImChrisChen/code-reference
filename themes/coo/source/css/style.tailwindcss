@@ -359,7 +359,7 @@ html.scrollbar {
 }
 
 .mdLayout.mdLayout p.link-arrow > a::before, .mdLayout.mdLayout p.link-arrow > a:visited::before {
-    @apply text-emerald-400 text-white;
+    @apply text-[#0f0f0f] text-white;
 }
 
 .mdLayout.mdLayout p.link-arrow > a:hover, .mdLayout.mdLayout p.link-arrow > a:focus {
