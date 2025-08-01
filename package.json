@@ -55,7 +55,8 @@
     "markdown-it-shortcode-tag": "^1.1.0",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
-    "markdown-it-task-lists": "^2.1.1"
+    "markdown-it-task-lists": "^2.1.1",
+    "minimist": "^1.2.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",

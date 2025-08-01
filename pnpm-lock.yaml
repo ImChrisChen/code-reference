@@ -122,6 +122,9 @@ importers:
       markdown-it-task-lists:
         specifier: ^2.1.1
         version: 2.1.1
+      minimist:
+        specifier: ^1.2.8
+        version: 1.2.8
     devDependencies:
       autoprefixer:
         specifier: ^10.4.0
