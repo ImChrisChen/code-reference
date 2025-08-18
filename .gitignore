@@ -37,3 +37,5 @@ package-lock.json
 themes/coo/source/css/style.css
 public/
 db.json
+
+public.zip
