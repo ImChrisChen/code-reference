@@ -1,11 +1,16 @@
 <!DOCTYPE HTML>
 <html class="<%= is_post() ? 'scrollbar' : '' %>" translate="no">
 <%- partial('_partial/head') %>
-<body class="bg-slate-100 dark:bg-slate-900">
-<%- partial('_partial/header') %>
-<%- body %>
-<%- partial('_partial/search') %>
-<%- partial('_partial/footer') %>
-</body>
-<%- partial('_partial/scripts') %>
+
+  <body class="bg-slate-100 dark:bg-slate-900">
+    <!-- Google amp -->
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-3068336687184631">
+    </amp-auto-ads>
+    <%- partial('_partial/header') %>
+      <%- body %>
+        <%- partial('_partial/search') %>
+          <%- partial('_partial/footer') %>
+  </body>
+  <%- partial('_partial/scripts') %>
+
 </html>
