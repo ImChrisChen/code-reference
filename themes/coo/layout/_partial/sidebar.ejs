@@ -35,6 +35,7 @@
         </ul>
     </div>
 </div>
+<%- partial('_partial/ad_httpeep_sidebar') %>
 <% let posts = popular_posts_json({maxCount: 10}, page).json; %>
 <% if (posts.length > 0) { %>
     <div class="md:px-6 mt-10">
